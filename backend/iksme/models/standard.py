@@ -11,6 +11,7 @@ from backend.database import (
     slugify,
 )
 from backend.utils.date import utcnow
+import sqlalchemy as sa
 
 class Standard(Model):
     full_code = Column(String(140), nullable=False)

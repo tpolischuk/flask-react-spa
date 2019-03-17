@@ -33,6 +33,7 @@ BUNDLES = [
     'backend.blog',
     'backend.security',
     'backend.site',
+    'backend.iksme'
 ]
 
 # ordered list of extensions to register before the bundles

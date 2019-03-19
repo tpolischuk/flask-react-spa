@@ -30,6 +30,8 @@ import {
   Styles,
 } from 'site/pages'
 
+import Standard from 'components/Standard'
+
 import { AnonymousRoute, ProtectedRoute } from 'utils/route'
 
 
@@ -57,6 +59,7 @@ export const ROUTES = {
   SignUp: 'SignUp',
   Styles: 'Styles',
   TagDetail: 'TagDetail',
+  Standard: 'Standard'
 }
 
 /**
@@ -70,6 +73,11 @@ export const ROUTES = {
  *  - label: optional, label to use for links (default: startCase(key))
  */
 const routes = [
+  {
+    key: ROUTES.Standard,
+    path: '/standard',
+    component: Standard,
+  },
   {
     key: ROUTES.ArticleDetail,
     path: '/articles/:slug',

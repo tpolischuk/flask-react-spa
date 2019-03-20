@@ -17,4 +17,5 @@ class ArticleResource(ModelResource):
                 'next': next}
 
     def list(self):
+        print('Whats up buttercup')
         return Article.get_published()

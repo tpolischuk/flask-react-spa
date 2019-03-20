@@ -1,2 +1,6 @@
 from .article_resource import ArticleResource
-from .blueprint import standard
+
+# Flask Really does not like this
+#from .standard_resource import StandardResource
+
+from .blueprint import iksme

@@ -23,3 +23,7 @@ class Standard(Model):
     def get_standards(cls):
         return cls.query\
             .all()
+
+    # def get_standards(cls):
+    #     return cls.query\
+    #         .all()

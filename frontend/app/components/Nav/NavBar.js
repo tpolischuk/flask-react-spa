@@ -30,7 +30,7 @@ class NavBar extends React.Component {
       <nav className={classnames({ 'menu-open': menuOpen })}>
         <div className="container navbar-top">
           <NavLink exact to={ROUTES.Home} className="brand">
-            FlaskReact.<span className="tld">SPA</span>
+            IKSME.<span className="tld">Technical Assignment</span>
           </NavLink>
           <a href="javascript:void(0);"
              className="burger"
@@ -39,10 +39,8 @@ class NavBar extends React.Component {
             Menu&nbsp;&nbsp;&#9776;
           </a>
           <div className="menu left">
-            <NavLink to={ROUTES.Articles} />
-            <NavLink to={ROUTES.Series} />
+            <NavLink to={ROUTES.Standard} />
             <NavLink to={ROUTES.Styles} />
-            <NavLink to={ROUTES.Contact} />
           </div>
           <div className="menu right">
             {isAuthenticated

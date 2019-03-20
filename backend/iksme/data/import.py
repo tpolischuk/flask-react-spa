@@ -30,7 +30,6 @@ def import_csv_data(file):
             description)
         )
 
-
         import_count += 1
 
     print(f'Processed {import_count} standards.')

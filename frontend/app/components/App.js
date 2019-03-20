@@ -21,7 +21,7 @@ const AppLayout = () => (
       <Routes />
     </main>
     <footer className="center">
-       Copyright {new Date().getFullYear()} {COPYRIGHT}
+       Copyright {new Date().getFullYear()} Trevor Polischuk
     </footer>
   </div>
 )

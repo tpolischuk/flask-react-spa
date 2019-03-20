@@ -18,3 +18,12 @@ class Standard(Model):
     standard = Column(String(140), nullable=False)
     description = Column(Text, nullable=False)
     tag = Column(db.JSON(), nullable=False)
+
+    @classmethod
+    def get_standards(cls):
+        return cls.query\
+            .all()
+
+    # def get_standards(cls):
+    #     return cls.query\
+    #         .all()
